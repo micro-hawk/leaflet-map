@@ -8,7 +8,7 @@ import "./MyMap.css";
 
 class MyMap extends Component {
 
-  state = {};
+  // state = {};
 
   stateStyle = {
       fillColor : "white",          
@@ -49,7 +49,7 @@ class MyMap extends Component {
   render() {
     return (
       <div>
-        <Map style={{height:'100vh'}} zoom={5} center={[25, 90]}>
+        <Map style={{height:'100vh'}} zoom={4.5} center={[25, 90]}>
             <GeoJSON style={this.stateStyle} data={india_states.features} onEachFeature={this.onEachState}/>
         </Map>
       </div>
