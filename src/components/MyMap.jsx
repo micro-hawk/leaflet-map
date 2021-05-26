@@ -48,7 +48,7 @@ class MyMap extends Component {
 
   render() {
     return (
-      <div>
+      <div className="mapPane">
         <Map style={{height:'100vh', width:'60%'}} zoom={4} center={[25, 90]}>
             <GeoJSON style={this.stateStyle} data={india_states.features} onEachFeature={this.onEachState}/>
         </Map>
