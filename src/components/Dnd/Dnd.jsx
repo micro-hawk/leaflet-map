@@ -17,8 +17,8 @@ export default function Dnd () {
 
     return(
         <div className="dnd-container">
-            <div id="item" className="item" draggable="true">
-                <h1>helll</h1>
+            <div draggable="true">
+                <h1 id="item" draggable="true" >helll</h1>
             </div>
         </div>
     );

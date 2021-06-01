@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="container">
     <MyMap />
-    <Dnd />
+    {/* <Dnd /> */}
     </div>
   );
 }

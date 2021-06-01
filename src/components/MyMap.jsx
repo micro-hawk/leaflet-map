@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import {Map, GeoJSON} from "react-leaflet";
 import india_states from "../data/india_states.json";
+import PropTypes from 'prop-types';
 import "leaflet/dist/leaflet.css";
 import "./MyMap.css";
 
@@ -9,7 +10,6 @@ import "./MyMap.css";
 class MyMap extends Component {
 
   // state = {};
-
   stateStyle = {
       fillColor : "white",          
       fillOpacity: 1,
